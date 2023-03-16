@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         val buttonNavigate = findViewById<BottomNavigationView>(R.id.bottom_navigation)
 
         buttonNavigate.setOnItemSelectedListener { item ->
